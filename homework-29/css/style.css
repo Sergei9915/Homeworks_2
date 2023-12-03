@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(72, 0, 131);
+  color: brown;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.block {
+  overflow: hidden;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgb(25, 146, 9);
+  border: 2px solid rgb(16, 209, 10);
+}
