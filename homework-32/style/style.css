@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  margin-top: 30px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+p {
+  margin-top: 2px;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.smile {
+  padding: 20px;
+  font-size: 30px;
+  background: white;
+  transition: background 0.5s;
+  border-radius: 10px;
+}
+
+.smile:hover {
+  background: green;
+}
