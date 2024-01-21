@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.nav {
+  font-size: 30px;
+  background-color: aqua;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+#section {
+  display: flex;
+}
+
+.asideNav {
+  width: 20%;
+  height: 100vh;
+  background-color: green;
+}
+
+.asideNav__menu>li {
+  padding-top: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
